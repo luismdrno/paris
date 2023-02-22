@@ -3,3 +3,15 @@ body {background-color: #E8E2CC;}
 h1 {
     font-family: 'Dancing Script', cursive;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
